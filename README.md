@@ -1,3 +1,20 @@
+## The goal is to build a small e-commerce website using React, which includes the following features:
+
+Product List: Display a list of products. Each product should be a separate component rendered with JSX. The product data (name, image, price, etc.) should be passed as props.
+
+Product Details: When a user clicks on a product, they should see more information about the product. This can be achieved by using a state variable to track the currently selected product.
+
+Shopping Cart: Users should be able to add products to a shopping cart. This will involve managing state for the shopping cart (i.e., what items are in it and how many of each item the user wants).
+
+Data Fetching: Use lifecycle methods or the useEffect hook to fetch product data from a mock API. This could be a static JSON file or a service like JSON placeholder.
+
+State Management: Use the Context API and hooks to manage the state of the shopping cart across different components.
+
+Interactivity: Implement the ability for users to add items to the cart, remove items from the cart, or adjust the quantity of items in the cart. Reflect these changes in the cart's total price.
+
+The final application should be a cohesive e-commerce platform where users can browse items, add them to a shopping cart, and see the total price of the cart. The assignment should encompass JSX, class and function components, props, state, lifecycle methods, and hooks.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using [clean-cra Template](https://github.com/JorgePasco1/cra-template-clean-cra).
 
 ## Available Scripts
